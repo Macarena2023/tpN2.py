@@ -14,3 +14,5 @@ def calcular_combinaciones(peronas, equipo):
     return 0
   else:
     return calcular_factoriales(personas)//(calcular_factoriales(equipo)*calcular_factoriales(personas - equipo))
+  print("la cantidad de combinaciones son:", equipo)
+  
